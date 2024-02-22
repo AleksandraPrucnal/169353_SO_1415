@@ -1,0 +1,31 @@
+passwd- zmiana hasła
+who- wyświetla zalogowanych użytkowników
+whoami- wyświetlenie nazwy używanego użytkownika
+ls- wypisanie listy plików w danym katalogu
+pdw- pokazuje ścieżkę aktualnego katalogu
+tree- wyświetla zawartości podanego katalogu i wszytskich podkatalogów w formie drzewka
+ls -l - pokazuje prawa do pliku
+ls/ - wyświetla nazwy wszystkich katalogów, które są dostępne
+cd- przejście do pliku
+mkdir- tworzenie katalogu lub katalogów
+rmdir- usuwanie pustych katalogów
+rm- usuwa plik podany jako argument
+exit- wyjście
+
+OZNACZENIA KATALOGÓW
+. bieżący
+.. nadrzędny
+/ główny
+~ domowy
+
+- zwykły plik
+d katalog
+c plik znakowy specjalny
+b plik blokowy specjalny
+l link symboliczny
+
+
+mkdir Dane
+cd Dane
+cd ..
+tree
