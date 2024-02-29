@@ -5,7 +5,13 @@ nano
 cp  kopiowanie
 mv  zmiana nazwy albo zmiana miejsca pliku
 cat
+ln -s ~/public_html ~/ph_link
 
 
 mkdir st_2024
+cd st_2024
 mkdir Dane Teksty Programy
+cd Teksty
+mkdir Listy Podania
+cd ~/st_2024/Programy/Shell
+mkdir Skrypty
