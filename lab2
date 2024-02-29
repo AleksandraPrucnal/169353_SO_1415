@@ -1,0 +1,11 @@
+rm  usuwanie pliku
+rm -r  usuwanie rekurencyjnie
+mkdir  tworzenie folderu
+nano
+cp  kopiowanie
+mv  zmiana nazwy albo zmiana miejsca pliku
+cat
+
+
+mkdir st_2024
+mkdir Dane Teksty Programy
