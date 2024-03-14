@@ -1,0 +1,8 @@
+do pliku dane22 zapisać informację o pogodzie dopisać: wynik polecenia ls –l, następnie dopisać nazwę bieżącego katalogu
+echo info o pogodzie > dane22.txt
+ls -l >> dane22.txt
+
+do pliku drzewo zapisać strukturę katalogu domowego, następnie pliki dane 22 i drzewo zapisać do pliku wynik;
+tree ~  > drzewo.txt
+cat dane22.txt > wynik.txt
+cat drzewo.txt  >> wynik.txt
