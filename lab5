@@ -31,4 +31,16 @@ grep '^ala' tekst21_03.txt
 grep 'tola i ala$' tekst21_03.txt
 
 
-grep -c -E '^\s*ala|^\s*alla' tekst21_03.txt
+e) grep -c -E '^\s*ala|^\s*alla' tekst21_03.txt
+f) grep 'o,' tekst21_03.txt
+g) grep '\\' tekst21_03.txt
+h) grep '4[^*]' tekst21_03.txt
+
+
+nn1=10
+nn2=5
+nn1+nn2
+nn1=nn1+nn2
+set nn2
+
+
