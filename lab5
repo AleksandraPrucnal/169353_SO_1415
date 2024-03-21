@@ -1,0 +1,34 @@
+grep '^zip' lista.txt
+grep 'zip$' lista.txt
+grep '[bg]zip' lista.txt
+grep '[^bg]zip' lista.txt
+grep '^[A-Z]' lista.txt
+grep '[0-9]$' lista.txt
+
+
+ZADANIA
+echo $HOME
+/home/domena/s169353
+
+echo $_
+/home/domena/s169353
+
+nano
+kawa i herbata ala
+aallaan ***
+ela, jola, tola i allibaba
+kot\i pies\ali
+ala 4-2=2
+alla: 4*5=20
+allo alo, tola i ala
+pies aalli alli
+aalllaa tollla
+ alla 4+3=7 ala
+ aloa i ala
+  ala
+
+grep '^ala' tekst21_03.txt
+grep 'tola i ala$' tekst21_03.txt
+
+
+grep -c -E '^\s*ala|^\s*alla' tekst21_03.txt
