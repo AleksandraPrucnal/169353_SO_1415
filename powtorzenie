@@ -35,6 +35,8 @@ log
 
 LACZENIE POLECEN
 ls -l | wc -l -policz ile jest linijek
+wc -w
+wc -c
 
 
 
@@ -73,4 +75,14 @@ amin
 -name
 -iname
 '[a-k]'
--
+find /(-name 'i*' -o -name '*y'/)
+
+
+grep zip *.tx (we wszystkich plikach txt)
+grep zip$ *.txt
+
+
+ZMIENNE
+a=5
+echo $a
+c=$[$a+$b]
