@@ -1,1 +1,76 @@
-ls, cd
+PRZEMIESZCZANIE SIE PO PLIKACH
+ls
+cd
+tree
+man ls
+pwd- ścieżka aktualnego folderu
+
+
+
+TWORZENIE PLIKOW FOLDEROW 
+mkdir
+touch plik
+echo "cos" >> plik
+nano plik2 (ctrl O- zapis)
+cat plik2
+ls -l
+man mkdir- żeby wyswietlic uprawnienia
+mkdir -m 777 nowy1 - folder z uprawnieniami
+
+
+
+USUWANIE
+rm plik
+rm -v plik -usuniecie pliku z komunikatem
+rm -v plik1 >> log 2 >> log
+_________________________
+|                       |
+|      >> dopisuje      |
+|      > nadpisuje      |
+|_______________________|
+rmdir -r katalog
+log
+
+
+
+LACZENIE POLECEN
+ls -l | wc -l -policz ile jest linijek
+
+
+
+PALACZENIE I PRZENOSZENIE DWOCH PLIKOW TEKSTOWYCH W JEDEN
+cat a1 >> a2
+cp a1 a2 (co, gdzie)
+mv a1 a2
+mv a2 bb/nazwa
+chmod 777 log
+chmod 770 log
+chmod 760 log
+
+  u     g     o(others)
+r w x r w x r w x
+4 2 1 4 2 1 4 2 1
+
+rw--w-r-x
+chmod 625
+
+ln -s ~ dom
+ln -s ~/Notatki/domNot
+ln -s ~/Notatki/ ~/kat1/domNot2
+ls -1
+
+
+
+WYSZUKIWANIE  
+find -type f -name 'n*' -atime -2
+plik, dostep mniej niz 2 dni temu, nazwa zaczynajaca sie na n
+-atime
+ctime
+mtime
+amin
+
+-type
+-name
+-iname
+'[a-k]'
+-
