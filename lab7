@@ -1,0 +1,14 @@
+Zad1
+Przetestuj poniższe polecenia, napisz co robią.
+cat /etc/passwd | cut -d”:” -f1,3,6
+
+Zad3
+echo ${a:-plikZERO} - konstrukcja parametru zastępczego. 
+Jeśli zmienna a jest pusta lub niezdefiniowana, zwróci "plikZERO", w przeciwnym razie zwróci wartość zmiennej a.
+zmienna=/home/jan23/Pliki/projekt1/Pliki/Dane
+echo $a
+echo ${#a} - zwraca długość wartości zmiennej
+echo ${zmienna%Pliki*} - usuwa z łańcucha od końca najmniejszą część parametru do słowa "Pliki" włącznie z nim
+echo ${zmienna%%Pliki*} - usuwa z łańcucha od końca największą część parametru do słowa "Pliki" włącznie z nim
+echo ${zmienna#*Pliki} - usuwa najkrótsze dopasowanie wzorca "*Pliki" z początku wartości zmiennej zmienna
+echo ${zmienna##*Pliki} - usuwa najdłuższe dopasowanie wzorca "*Pliki" z początku wartości zmiennej zmienna
