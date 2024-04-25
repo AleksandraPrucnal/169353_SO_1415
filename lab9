@@ -1,0 +1,10 @@
+1. ustal, ile procesów jest aktualnie uruchomionych w SO
+ps -A --no-headers | wc -l
+
+2. ustal, właścicielem jakich procesów jest użytkownik root: ps -u root -f
+ps -u root -f | wc -l
+
+3. ustal, „linię genealogiczną” procesu realizującego program ps zaczynając od procesu init. To print a process tree: 
+ps -ejH, ps axjf
+
+4. ustal, jaki priorytet ma proces realizujący program bash.
